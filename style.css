@@ -84,6 +84,7 @@
 
 .ex_pics>div {
     margin-bottom: 20px;
+    height: 210px;
 }
 
 /* esercizio 6 */
@@ -119,4 +120,22 @@
 }
 
 /* esercizio 9 */
+.pic4 {
+    transition:filter 7s;
+    transition:border-radius 7s;
+    transition:width 7s;
+    transition:height 7s;
+}
 
+.pic4:hover {
+    filter: grayscale(100%);
+}
+
+.pic4:hover {
+    border-radius: 2rem;
+}
+
+.pic4:hover {
+    width: 200px;
+    height: 150px;
+}
