@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+.ex_squares {
+    margin: 10%;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    }
+
+.sq1 {
+    border: 2px solid red;
+    transition: 3s;
+}
+
+.sq1:hover {
+    background-color: red;
+}
