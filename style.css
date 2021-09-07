@@ -42,3 +42,12 @@
 .sq2:active {
     width: 400px;
 }
+
+/* esercizio 3 */
+.sq3 {
+    transition:border-radius 5s;
+}
+
+.sq3:hover {
+    border-radius: 100%;
+}
