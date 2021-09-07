@@ -51,3 +51,12 @@
 .sq3:hover {
     border-radius: 100%;
 }
+
+/* esercizio 4 */
+.sq4 {
+    transition:opacity 5s;
+}
+
+.sq4:hover {
+    opacity: 0;
+}
