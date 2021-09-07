@@ -97,10 +97,26 @@
 
 /* esercizio 7 */
 .pic2 {
-    transition: filter 7s;
+    transition:filter 7s;
 }
 
 .pic2:hover {
     filter: grayscale(100%);
 }
+
+/* esercizio 8 */
+.pic3 {
+    transition: filter 7s;
+    transition:border-radius 7s;
+}
+
+.pic3:hover {
+    filter: grayscale(100%);
+}
+
+.pic3:hover {
+    border-radius: 2rem;
+}
+
+/* esercizio 9 */
 
