@@ -1,23 +1,44 @@
+/* reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+
 .ex_squares {
     margin: 10%;
 }
 
+/* common rules squares */
 .square {
     width: 200px;
     height: 200px;
     }
 
+.square:not(.sq1) {
+    background-color: red;
+}
+
+.ex_squares>div {
+    margin-bottom: 50px;
+}
+
+    /* esercizio 1 */
 .sq1 {
     border: 2px solid red;
-    transition: 3s;
+    transition: background 3s;
 }
 
 .sq1:hover {
     background-color: red;
+}
+
+/* esercizio 2 */
+.sq2 {
+    transition:width 1s;
+}
+
+.sq2:active {
+    width: 400px;
 }
